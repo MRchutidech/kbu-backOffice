@@ -1,0 +1,21 @@
+form.was-validated .form-control.is-invalid,
+form.was-validated .form-select.is-invalid {
+  border-color: #dc3545; /* Red border color */
+}
+
+.no-validation:valid {
+  background-image: none !important;
+  padding-right: calc(1.5em + .75rem) !important;
+  background-repeat: no-repeat !important;
+  background-position: right calc(.375em + .1875rem) center !important;
+  background-size: 0 !important;
+}
+
+.form-green-border {
+  border-color: #1cc88a !important;
+}
+
+.total-line{
+  border-bottom: 5px double #000;
+  border-top: 1px solid #000;
+}
